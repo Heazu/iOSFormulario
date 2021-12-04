@@ -12,7 +12,9 @@ class NewContactViewController: UIViewController {
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var firstNameTextField: UITextField!
     @IBOutlet weak var lastNameTextField: UITextField!
+
     @IBOutlet weak var lastName2TextField: UITextField!
+
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var phoneTextField: UITextField!
     var viewModel: NewContactViewModel!
@@ -126,11 +128,12 @@ class NewContactViewController: UIViewController {
             print("The ContactScreenTableViewController is not inside a navigation controller")
         }
     }
+
 }
 
 extension NewContactViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     // MARK: - Image tap gesture
-    @IBAction func addImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
+    @IBAction func addImageFromPhotoLibrary(_ sender: Any) {
         // let the user pick media from his photo library.
         let imagePickerController = UIImagePickerController()
         
@@ -140,7 +143,6 @@ extension NewContactViewController: UIImagePickerControllerDelegate, UINavigatio
         imagePickerController.delegate = self
         present(imagePickerController, animated: true, completion: nil)
     }
-    
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         dismiss(animated: true, completion: nil)
     }

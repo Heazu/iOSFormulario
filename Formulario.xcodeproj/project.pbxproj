@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		21912152275A8407006ED738 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21912151275A8407006ED738 /* AppDelegate.swift */; };
 		21912154275A8407006ED738 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21912153275A8407006ED738 /* SceneDelegate.swift */; };
-		21912156275A8407006ED738 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21912155275A8407006ED738 /* ViewController.swift */; };
 		21912159275A8407006ED738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21912157275A8407006ED738 /* Main.storyboard */; };
 		2191215B275A8408006ED738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2191215A275A8408006ED738 /* Assets.xcassets */; };
 		2191215E275A8408006ED738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2191215C275A8408006ED738 /* LaunchScreen.storyboard */; };
@@ -31,7 +30,6 @@
 		2191214E275A8407006ED738 /* Formulario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Formulario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21912151275A8407006ED738 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21912153275A8407006ED738 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		21912155275A8407006ED738 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		21912158275A8407006ED738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2191215A275A8408006ED738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2191215D275A8408006ED738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 				2191216A275A8612006ED738 /* Extensions */,
 				21912151275A8407006ED738 /* AppDelegate.swift */,
 				21912153275A8407006ED738 /* SceneDelegate.swift */,
-				21912155275A8407006ED738 /* ViewController.swift */,
 				21912157275A8407006ED738 /* Main.storyboard */,
 				2191215A275A8408006ED738 /* Assets.xcassets */,
 				2191215C275A8408006ED738 /* LaunchScreen.storyboard */,
@@ -290,7 +287,6 @@
 				2191216E275A8669006ED738 /* NewContactViewController.swift in Sources */,
 				2191217C275A86C1006ED738 /* UIImageView.swift in Sources */,
 				21912176275A869E006ED738 /* SQLiteDatasource.swift in Sources */,
-				21912156275A8407006ED738 /* ViewController.swift in Sources */,
 				2191217E275A86CA006ED738 /* UIViewController.swift in Sources */,
 				2191217A275A86B8006ED738 /* Contact.swift in Sources */,
 				21912152275A8407006ED738 /* AppDelegate.swift in Sources */,
